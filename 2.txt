@@ -31,3 +31,5 @@ int main() {
     printf("Welcome to the Country Capital Quiz!\n");
 
     for (int i = 0; i < numQuestions; ++i) {
+        askQuestion(questions[i][0], questions[i][1]);
+    }
