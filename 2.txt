@@ -27,3 +27,5 @@ int main() {
     };
 
     int numQuestions = sizeof(questions) / sizeof(questions[0]);
+
+    printf("Welcome to the Country Capital Quiz!\n");
