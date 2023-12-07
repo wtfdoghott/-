@@ -21,3 +21,4 @@ int main() {
     const char *questions[][2] = {
         {"France", "Paris"},
         {"Japan", "Tokyo"},
+        {"Canada", "Ottawa"},
