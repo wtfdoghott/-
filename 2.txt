@@ -9,3 +9,5 @@ void askQuestion(const char *country, const char *correctCapital) {
 
     printf("What is the capital of %s? ", country);
     scanf_s("%s", userAnswer);
+
+    if (isAnswerCorrect(userAnswer, correctCapital)) {
