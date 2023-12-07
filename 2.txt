@@ -2,3 +2,5 @@
 #include <string.h>
 
 int isAnswerCorrect(const char *userAnswer, const char *correctAnswer) {
+    return strcmp(userAnswer, correctAnswer) == 0;
+}
