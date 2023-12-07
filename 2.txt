@@ -33,3 +33,5 @@ int main() {
     for (int i = 0; i < numQuestions; ++i) {
         askQuestion(questions[i][0], questions[i][1]);
     }
+
+    printf("Congratulations on completing the Country Capital Quiz! Good job!\n");
