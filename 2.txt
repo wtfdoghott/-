@@ -24,3 +24,6 @@ int main() {
         {"Canada", "Ottawa"},
         {"Brazil", "Brasilia"},
         {"Australia", "Canberra"}
+    };
+
+    int numQuestions = sizeof(questions) / sizeof(questions[0]);
