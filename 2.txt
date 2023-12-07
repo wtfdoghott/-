@@ -4,3 +4,4 @@
 int isAnswerCorrect(const char *userAnswer, const char *correctAnswer) {
     return strcmp(userAnswer, correctAnswer) == 0;
 }
+void askQuestion(const char *country, const char *correctCapital) {
