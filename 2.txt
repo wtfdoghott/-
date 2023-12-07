@@ -8,3 +8,4 @@ void askQuestion(const char *country, const char *correctCapital) {
     char userAnswer[50];
 
     printf("What is the capital of %s? ", country);
+    scanf_s("%s", userAnswer);
