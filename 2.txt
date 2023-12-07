@@ -19,3 +19,4 @@ void askQuestion(const char *country, const char *correctCapital) {
 
 int main() {
     const char *questions[][2] = {
+        {"France", "Paris"},
