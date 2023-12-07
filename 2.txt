@@ -12,3 +12,4 @@ void askQuestion(const char *country, const char *correctCapital) {
 
     if (isAnswerCorrect(userAnswer, correctCapital)) {
         printf("Correct! Great job!\n");
+    } else {
