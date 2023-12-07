@@ -14,3 +14,7 @@ void askQuestion(const char *country, const char *correctCapital) {
         printf("Correct! Great job!\n");
     } else {
         printf("Oops! The correct capital of %s is %s.\n", country, correctCapital);
+    }
+}
+
+int main() {
